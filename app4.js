@@ -8,7 +8,7 @@ let rl = readline.createInterface(
 
 rl.question('Ingrese un mensaje:',(mensaje)=>{
   const cadena = mensaje.toUpperCase()
-  console.log("el numero de caracteres  del mensaje es: ", cadena)
+  console.log("el numero de caracteres del mensaje es: " + cadena)
   process.exit()
 
 })

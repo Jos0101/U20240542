@@ -8,7 +8,8 @@ let rl = readline.createInterface(
 
 rl.question('Ingrese un mensaje:', (mensaje)=>{
     const numCaracteres = mensaje.length
-    console.log("el numero de caracteres  del mensaje es: ",numCaracteres)
-    process.exit()
+    console.log("el numero de caracteres  del mensaje es: " + numCaracteres)
+
+      process.exit()
 
 })

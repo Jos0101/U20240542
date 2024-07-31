@@ -7,12 +7,11 @@ let rl = readline.createInterface(
 )
  
 rl.question("¿Cual es su nombre?",(nombre)=>{
-    rl.question("¿Cual es su apellido?",(apellido)=>{
-
-        console.log('hola,' + nombre + apellido)
+    
+        console.log('hola,' + nombre)
 
         process.exit()
-    })
+     
 })
 
  
